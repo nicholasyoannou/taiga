@@ -4,6 +4,7 @@
 [![](https://img.shields.io/discord/423475967051169813?logo=discord)](https://discord.gg/yeGNktZ)
 
 This fork dedicates itself to getting Crunchyroll Beta to function. Thanks to Ryban for the Tampermonkey script otherwise me making this wouldn't have been possible. 
+It's been confirmed and working that this works on Chromium-based browsers (so Chrome, MSEdge will work). It has also been tested on Firefox, and it works on there as well (yay). 
 
 # Installation instructions
 To install this, you'll need to install the [Tampermonkey extension](https://www.tampermonkey.net/) and you'll need to add the [Crunchyroll Beta Taiga Title Fix script](https://gist.github.com/ryban/d5d66b51618a98d242d4519ebc1e3b3e) (PS: If that link doesn't work, try [here](https://github.com/nicholasyoannou/taiga/releases/download/crunchyrollbeta-custombuild/cr_beta.userscript.js)). 
