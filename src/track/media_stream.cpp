@@ -68,6 +68,16 @@ static const std::vector<StreamData> stream_data{
     ),
     std::regex("(.+) - Watch on Crunchyroll"),
   },
+  // Crunchyroll BETA (EDIT)
+  {
+    Stream::CrunchyrollB,
+    L"Crunchyroll Beta",
+    L"https://beta.crunchyroll.com",
+    std::regex(
+      "beta\\.crunchyroll\\.com/watch/"
+    ),
+    std::regex("(.+) - Watch on Crunchyroll"),
+  },
   // Funimation
   {
     Stream::Funimation,
@@ -163,6 +173,8 @@ bool IsStreamEnabled(const Stream stream) {
       return taiga::settings.GetStreamAnn();
     case Stream::Crunchyroll:
       return taiga::settings.GetStreamCrunchyroll();
+    case Stream::CrunchyrollB:
+      return taiga::settings.GetStreamCrunchyrollB();
     case Stream::Funimation:
       return taiga::settings.GetStreamFunimation();
     case Stream::Hidive:
@@ -198,6 +210,9 @@ void EnableStream(const Stream stream, const bool enabled) {
       break;
     case Stream::Crunchyroll:
       taiga::settings.SetStreamCrunchyroll(enabled);
+      break;
+    case Stream::CrunchyrollB:
+      taiga::settings.SetStreamCrunchyrollB(enabled);
       break;
     case Stream::Funimation:
       taiga::settings.SetStreamFunimation(enabled);

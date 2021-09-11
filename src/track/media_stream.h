@@ -29,6 +29,7 @@ enum class Stream {
   Adn,
   Ann,
   Crunchyroll,
+  CrunchyrollB,
   Funimation,
   Hidive,
   Plex,

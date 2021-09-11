@@ -20,7 +20,7 @@
 ; Definitions
 !define PRODUCT_EXE "Taiga.exe"
 !define PRODUCT_NAME "Taiga"
-!define PRODUCT_PUBLISHER "erengy"
+!define PRODUCT_PUBLISHER "erengy, modded by janeberru#4594"
 !define PRODUCT_VERSION "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
 !define PRODUCT_WEBSITE "https://taiga.moe"
 

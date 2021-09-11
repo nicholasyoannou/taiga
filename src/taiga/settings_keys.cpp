@@ -166,6 +166,7 @@ void Settings::InitKeyMap() const {
       {AppSettingKey::StreamAdn, {"recognition/streaming/providers/adn", true}},
       {AppSettingKey::StreamAnn, {"recognition/streaming/providers/ann", true}},
       {AppSettingKey::StreamCrunchyroll, {"recognition/streaming/providers/crunchyroll", true}},
+      {AppSettingKey::StreamCrunchyrollB, {"recognition/streaming/providers/crunchyrollb", true}},
       {AppSettingKey::StreamFunimation, {"recognition/streaming/providers/funimation", true}},
       {AppSettingKey::StreamHidive, {"recognition/streaming/providers/hidive", true}},
       {AppSettingKey::StreamPlex, {"recognition/streaming/providers/plex", true}},
@@ -870,6 +871,14 @@ bool Settings::GetStreamCrunchyroll() const {
 
 void Settings::SetStreamCrunchyroll(const bool enabled) {
   set_value(AppSettingKey::StreamCrunchyroll, enabled);
+}
+
+bool Settings::GetStreamCrunchyrollB() const {
+  return value<bool>(AppSettingKey::StreamCrunchyrollB);
+}
+
+void Settings::SetStreamCrunchyrollB(const bool enabled) {
+  set_value(AppSettingKey::StreamCrunchyrollB, enabled);
 }
 
 bool Settings::GetStreamFunimation() const {

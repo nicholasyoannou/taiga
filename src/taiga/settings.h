@@ -210,6 +210,8 @@ public:
   void SetStreamAnn(const bool enabled);
   bool GetStreamCrunchyroll() const;
   void SetStreamCrunchyroll(const bool enabled);
+  bool GetStreamCrunchyrollB() const;
+  void SetStreamCrunchyrollB(const bool enabled);
   bool GetStreamFunimation() const;
   void SetStreamFunimation(const bool enabled);
   bool GetStreamHidive() const;
