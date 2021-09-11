@@ -3,6 +3,8 @@
 [![](https://img.shields.io/github/license/erengy/taiga)](https://github.com/erengy/taiga/blob/master/LICENSE)
 [![](https://img.shields.io/discord/423475967051169813?logo=discord)](https://discord.gg/yeGNktZ)
 
+**UPDATE: I've tried using the application but this fork isn't a complete solution for CR Beta and there may be unintended bugs. E.g. Crunchyroll's instant episode system where it goes to the next episode immediately - I'm not sure if Taiga likes it. So yea, it is a little bit of a fiddle.**
+
 This fork dedicates itself to getting Crunchyroll Beta to function. Thanks to Ryban for the Tampermonkey script otherwise me making this wouldn't have been possible. 
 
 I've tested this on multiple browsers and I can conclude ...it's been confirmed and working that this works on Chromium-based browsers (so Chrome, MSEdge will work). It has also been tested on Firefox, and it works on there as well (yay). 
