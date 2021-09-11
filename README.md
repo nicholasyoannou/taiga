@@ -17,6 +17,7 @@ Once it's added, you can then install the forked version of Taiga. Go to the [Re
 And, that's it! If anyone knows how to make it so the script is built in to the Taiga application, well that would be great!
 The aim of this build is to generally get Crunchyroll Beta to work, and the interface to me is quite nice. Some may be forced to use it, but eh, everyones opinions will vary.
 For now, Sayōnara!
+Oh yea, if anyone wants to ask me about this fork, I'm available on Discord janeberru#4594. 
 
 ________________________________________________________________________________________________
 # About Taiga
