@@ -69,14 +69,23 @@ static const std::vector<StreamData> stream_data{
     std::regex("(.+) - Watch on Crunchyroll"),
   },
   // Crunchyroll BETA (EDIT)
-  {
-    Stream::CrunchyrollB,
-    L"Crunchyroll Beta",
-    L"https://beta.crunchyroll.com",
+  // {
+  //   Stream::CrunchyrollB,
+  //   L"Crunchyroll Beta",
+  //   L"https://beta.crunchyroll.com",
+  //   std::regex(
+  //     "beta\\.crunchyroll\\.com/watch/"
+  //   ),
+  //   std::regex("(.+) - Watch on Crunchyroll"),
+  // },
+   {
+    Stream::Crunchyroll,
+    L"Crunchyroll",
+    L"http://beta.crunchyroll.com",
     std::regex(
-      "beta\\.crunchyroll\\.com/watch/"
+      "crunchyroll\\.[a-z.]+/watch/[^/]+/.+"
     ),
-    std::regex("(.+) - Watch on Crunchyroll"),
+    std::regex("(.+) - Watch on Crunchyroll.*"),
   },
   // Funimation
   {
