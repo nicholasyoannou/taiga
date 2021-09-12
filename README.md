@@ -14,7 +14,7 @@ To install this, you'll need to install the [Tampermonkey extension](https://www
 
 To add the script, go to the Tampermonkey Dashboard (click on the extension in the extensions menu > dashboard). Hit the '+' button in the menu left of 'Installed Userscripts'. Paste the script there and then in the editor menu hit file > save. 
 
-Once it's added, you can then install the forked version of Taiga. Go to the [Releases](https://github.com/nicholasyoannou/taiga/releases/tag/crunchyrollbeta-custombuild) and download and install TaigaSetup.exe. PS: I've added some stuff in there about what the userscript does, etc, if you want to know. 
+Once it's added, you can then install the forked version of Taiga. Go to the [Releases](https://github.com/nicholasyoannou/taiga/releases/) and download and install TaigaSetup.exe. PS: I've added some stuff in there about what the userscript does, etc, if you want to know. 
 
 # Footnote
 And, that's it! If anyone knows how to make it so the script is built in to the Taiga application, well that would be great!
